@@ -1,0 +1,12 @@
+{
+  "name": "thng-resource-mappings",
+  "version": "0.0.1",
+  "description": "Contains mappings between EVRYTHNG and external entities",
+  "main": "index.js",
+  "keywords": [
+    "mappings",
+    "evrythng"
+  ],
+  "author": "EVRYTHNG Team",
+  "license": "MIT"
+}
