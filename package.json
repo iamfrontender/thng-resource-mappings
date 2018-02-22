@@ -1,6 +1,6 @@
 {
   "name": "thng-resource-mappings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Contains mappings between EVRYTHNG and external entities",
   "main": "index.js",
   "keywords": [
