@@ -17,59 +17,66 @@ module.exports = {
       displayName: 'Social Score'
     }),
 
-    'customFields.facilities': [{
-      'name': {
-        displayName: 'Facility Name',
-        required: true
-      },
-      'environmental_management_systems': starsWith({
-        displayName: 'Environmental Management Systems'
-      }),
-      'energy_greenhouse_gas_emissions': starsWith({
-        displayName: 'Energy / Greenhouse gas emissions'
-      }),
-      'water_use': starsWith({
-        displayName: 'Water Use'
-      }),
-      'wastewater': starsWith({
-        displayName: 'Wastewater'
-      }),
-      'air_emissions': starsWith({
-        displayName: 'Air emissions'
-      }),
-      'chemicals_management': starsWith({
-        displayName: 'Chemicals management'
-      }),
-      'recruitment': starsWith({
-        displayName: 'Recruitment'
-      }),
-      'compensation': starsWith({
-        displayName: 'Compensation'
-      }),
-      'hours': starsWith({
-        displayName: 'Hours'
-      }),
-      'worker_involvement': starsWith({
-        displayName: 'Worker involvement'
-      }),
-      'worker_treatment': starsWith({
-        displayName: 'Worker treatment'
-      }),
-      'health_and_safety': starsWith({
-        displayName: 'Health & safety'
-      }),
-      'value_chain_performance': starsWith({
-        displayName: 'Value chain performance'
-      }),
-      'external_engagement': starsWith({
-        displayName: 'External engagement'
-      }),
-      'community': starsWith({
-        displayName: 'Community'
-      }),
-      'transparency': starsWith({
-        displayName: 'Transparency'
-      })
-    }]
+    'customFields.facilities': {
+      type: 'array',
+      name: 'Facility',
+      add: 'Add facility',
+      remove: 'Remove facility',
+
+      item: {
+        'name': {
+          displayName: 'Facility Name',
+          required: true
+        },
+        'environmental_management_systems': starsWith({
+          displayName: 'Environmental Management Systems'
+        }),
+        'energy_greenhouse_gas_emissions': starsWith({
+          displayName: 'Energy / Greenhouse gas emissions'
+        }),
+        'water_use': starsWith({
+          displayName: 'Water Use'
+        }),
+        'wastewater': starsWith({
+          displayName: 'Wastewater'
+        }),
+        'air_emissions': starsWith({
+          displayName: 'Air emissions'
+        }),
+        'chemicals_management': starsWith({
+          displayName: 'Chemicals management'
+        }),
+        'recruitment': starsWith({
+          displayName: 'Recruitment'
+        }),
+        'compensation': starsWith({
+          displayName: 'Compensation'
+        }),
+        'hours': starsWith({
+          displayName: 'Hours'
+        }),
+        'worker_involvement': starsWith({
+          displayName: 'Worker involvement'
+        }),
+        'worker_treatment': starsWith({
+          displayName: 'Worker treatment'
+        }),
+        'health_and_safety': starsWith({
+          displayName: 'Health & safety'
+        }),
+        'value_chain_performance': starsWith({
+          displayName: 'Value chain performance'
+        }),
+        'external_engagement': starsWith({
+          displayName: 'External engagement'
+        }),
+        'community': starsWith({
+          displayName: 'Community'
+        }),
+        'transparency': starsWith({
+          displayName: 'Transparency'
+        })
+      }
+    }
   }
 };
