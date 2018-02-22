@@ -1,7 +1,7 @@
 'use strict';
 
 const smartLabel = require('./smartLabel');
-const SAC = require('SAC');
+const SAC = require('./SAC');
 
 module.exports = {
   smartLabel,
