@@ -1,6 +1,6 @@
 'use strict';
 
-const extend = require('../utils');
+const { extend } = require('../utils');
 const starsWith = extend({
   type: 'int',
   min: 1,
