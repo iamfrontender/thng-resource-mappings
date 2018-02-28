@@ -5,9 +5,5 @@ module.exports = {
 };
 
 function extend(base) {
-  return (addons) => {
-    return Object.assign(
-      Object.create(base), addons
-    );
-  };
+  return addons => Object.assign(Object.create(base), addons);
 }
