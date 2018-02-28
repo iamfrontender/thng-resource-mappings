@@ -1,8 +1,8 @@
 {
   "name": "thng-resource-mappings",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Contains mappings between EVRYTHNG and external entities",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "compile": "webpack"
   },
