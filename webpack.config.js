@@ -5,6 +5,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: __dirname + '/index.js',
   output: {
+    libraryTarget: 'commonjs',
     path: __dirname + '/dist'
   },
   module: {
